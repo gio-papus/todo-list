@@ -1,0 +1,21 @@
+.div__all--sign{
+    display: 
+    flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: fit-content;
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+   margin-top: 10rem;
+}
+.all-form{
+    margin-top: 1rem;
+  
+}

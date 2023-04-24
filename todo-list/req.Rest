@@ -1,0 +1,44 @@
+POST http://localhost:9000/api/item 
+Content-Type: application/json
+
+{
+
+"item": "holaaa"
+
+}
+
+###
+
+GET http://localhost:9000/api/items 
+Content-Type: application/json
+
+###
+
+PUT http://localhost:9000/api/item 
+Content-Type: application/json
+
+{
+"item": "update"
+}
+
+###
+
+DELETE http://localhost:9000/api/item
+Content-Type: application/json
+
+###
+POST http://localhost:9000/api/user
+Content-Type: application/json
+
+{
+
+"email": "holaaa",
+"pass":"123"
+
+
+}
+
+###
+
+GET http://localhost:9000/api/users 
+Content-Type: application/json
